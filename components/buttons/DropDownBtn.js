@@ -8,7 +8,7 @@ const styles = {
 const dropDownBtn = ({ label }) => {
   return (
     <div className={styles.dropDownBtn}>
-      <p mr-2>{label}</p>
+      <p className="mr-2">{label}</p>
       <ChevronDown />
     </div>
   );

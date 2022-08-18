@@ -51,13 +51,6 @@ const CMCTableRow = ({
       )}`
     );
   };
-  // const viewPrice = () => {
-  //   router.push(
-  //     `/currencies/price?symbol=${coinSymbol}&coin=${coinName}&price=${price.toFixed(
-  //       2
-  //     )}`
-  //   )
-  // }
 
   const formatNum = (num) => {
     return Number(num.toFixed(2)).toLocaleString();

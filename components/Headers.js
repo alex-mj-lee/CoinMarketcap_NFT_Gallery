@@ -34,7 +34,8 @@ const styles = {
 
 const Headers = () => {
   const [openMenu, setOpenMenu] = useState(false);
-  const { login, logOut, currentAccount } = useContext(CoinMarketContext);
+  const { login, logOut, currentAccount, openModal } =
+    useContext(CoinMarketContext);
 
   const router = useRouter();
 
@@ -64,7 +65,7 @@ const Headers = () => {
             <div className={styles.navLink}>Cryptocurrencies</div>
             <div className={styles.badge} />
           </div>
-          <div className={styles.navItem}>
+          <div className={styles.navItem} onClick={() => openModal()}>
             <div className={styles.navLink}>Exchanges</div>
           </div>
           <div className={styles.navItem} onClick={veiwNFTs}>
@@ -113,7 +114,7 @@ const Headers = () => {
           <div className={styles.menuItem} onClick={backHome}>
             <div className={styles.menuLink}>Cryptocurrencies</div>
           </div>
-          <div className={styles.menuItem}>
+          <div className={styles.menuItem} onClick={() => openModal()}>
             <div className={styles.menuLink}>Exchanges</div>
           </div>
           <div className={styles.menuItem} onClick={veiwNFTs}>
