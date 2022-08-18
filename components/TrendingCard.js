@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import MoreButton from "./moreButton";
+import MoreButton from "./MoreButton";
 import TrendingCardRow from "./TrendingCardRow";
 
 const styles = {
