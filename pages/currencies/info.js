@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useContext, useCallback } from "react";
 import Headers from "../../components/Headers";
-import CMCpriceConverter from "../../components/priceConverter";
-import CoinDetails from "../../components/coinDetails";
+import CMCpriceConverter from "../../components/PriceConverter";
+import CoinDetails from "../../components/CoinDetails";
 import Footer from "../../components/Footer";
 import { CoinMarketContext } from "../../context/context";
 
-import Graph from "../../components/graph";
-import Chat from "../../components/chat";
+import Graph from "../../components/Graph";
+import Chat from "../../components/Chat";
 
 const styles = {
   info: "min-h-screen",
