@@ -7,7 +7,6 @@ import Share from "../assets/svg/share";
 import Image from "next/image";
 import BullishFilled from "./buttons/BullishFilled";
 import BearishFilled from "./buttons/BearishFilled";
-import shiba from "../assets/shiba.png";
 
 const styles = {
   postAction: "flex items-center",

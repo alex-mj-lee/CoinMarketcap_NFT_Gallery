@@ -6,7 +6,7 @@ import ChevronUp from "../assets/svg/chevronUp";
 import shiba from "../assets/shiba.png";
 import Image from "next/image";
 import Button from "./Button";
-import ChatCard from "./chatCard";
+import ChatCard from "./ChatCard";
 import { faker } from "@faker-js/faker";
 
 const styles = {

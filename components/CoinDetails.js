@@ -10,11 +10,10 @@ import terra from "../assets/tera.png";
 import solana from "../assets/solana.png";
 import avalanche from "../assets/avalanche.png";
 import bnb from "../assets/bnb.png";
-import { CoinMarketContext } from "../context/context";
 
 import Rate from "./cmc-table/rate";
-import DropDownBtn from "./buttons/dropDownBtn";
-import RateFilled from "./buttons/rateFilled";
+import DropDownBtn from "./buttons/DropDownBtn";
+import RateFilled from "./buttons/RateFilled";
 
 const styles = {
   // coinDetails: `min-h-screen text-white`,

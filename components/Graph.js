@@ -1,6 +1,5 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
-import Chart from "chart.js/auto";
 
 const randomPoints = [
   [65, 59, 100, 80, 10, 56, 72, 45, 67, 55, 42],
